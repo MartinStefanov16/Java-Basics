@@ -1,0 +1,17 @@
+package L09_NestedLoops;
+
+public class clock {
+    public static void main(String[] args) {
+
+
+
+// TODO why doesnt this work in judge?
+        for (int h = 0; h <= 23; h++) {
+            for (int m = 0; m <= 59; m++) {
+                System.out.printf("%d:%d%n", h, m);
+            }
+        }
+
+
+    }
+}
